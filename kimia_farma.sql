@@ -2,20 +2,20 @@
 CREATE TABLE `rakamin-kf-analytics-449018.kimia_farma.kf_tabel_analisa` AS
 --Memilih kolom yang akan ada di tabel analisa
 SELECT
-    ft.transaction_id,               
-    ft.date,                         
-    ft.branch_id,                    
-    cb.branch_name,                  
-    cb.kota,                         
-    cb.provinsi,                     
-    ft.product_id,                   
-    cp.product_name,                 
-    ft.customer_name,                
-    ft.price AS actual_price,        
-    ft.discount_percentage,          
-    ft.rating AS transaction_rating, 
-    cb.rating AS branch_rating,      
-    ci.opname_stock,                 
+    ft.transaction_id,                  --kode id transaksi          
+    ft.date,                            --tanggal transaksi dilakukan
+    ft.branch_id,                       --kode id cabang Kimia Farma 
+    cb.branch_name,                     --nama cabang Kimia Farma
+    cb.kota,                            --kota cabang Kimia Farma
+    cb.provinsi,                        --provinsi cabang Kimia Farma
+    ft.product_id,                      --kode produk obat 
+    cp.product_name,                    --nama obat 
+    ft.customer_name,                   --nama customer yang melakukan transaksi 
+    ft.price AS actual_price,           --harga obat
+    ft.discount_percentage,             --presentase diskon yang diberikan pada obat
+    ft.rating AS transaction_rating,    --penilaian konsumen terhadap transaksi yang dilakukan
+    cb.rating AS branch_rating,         --penilaian konsumen terhadap cabang Kimia Farma
+    ci.opname_stock,                    --stok obat pada cabang yang masih tersedia
     -- Menghitung persentase gross laba berdasarkan ketentuan harga
     CASE
         WHEN ft.price <= 50000 THEN 0.1   
