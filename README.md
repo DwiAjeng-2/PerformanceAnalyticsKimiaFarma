@@ -68,7 +68,7 @@ Kimia Farma is the first pharmaceutical industry company in Indonesia to provide
 1. Distribution of revenue and transactions with an average transaction rating of 4.0, indicating quite good customer satisfaction.
 2. Time trends show fluctuations in net sales and transactions, which can be attributed to external factors and seasonality. This can be used as a timely promotional strategy to increase sales.
 3. Analysis of transaction patterns shows that there are spikes in certain periods, which can be used for promotional strategies and stock management.
-4. Geographical analysis shows that West Java, DKI Jakarta and East Java are the regions with the largest contribution, but there are provinces with high transactions but low profits. Optimizing price and margin strategies can be carried out in provinces with high transactions but low profits.
+4. Geographical analysis shows that West Java is region with the largest contribution, but there are provinces with high transactions but low profits. Optimizing price and margin strategies can be carried out in provinces with high transactions but low profits.
 5. Product analysis shows that there is overstocking on some products, and some products with high transactions do not have the highest sales. This can be done with better stock management to avoid overstocking and dead stock.
 6. Branch performance shows that there are branches with high ratings but low transactions, which may require better marketing strategies.
 
